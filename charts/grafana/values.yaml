@@ -343,6 +343,11 @@ dashboards:
 # # # #Each time when you add new dashboard as a Json, put under dashboards and specify like below. # # # #
 
   default:
+    Kubernetes-Academy Deployment:
+      file: dashboards/academy.json
+      # gnetId: 5303
+      # revision: 1
+      # datasource: Prometheus
     Kubernetes-Capacity:
       file: dashboards/6912.json
       # gnetId: 6912
